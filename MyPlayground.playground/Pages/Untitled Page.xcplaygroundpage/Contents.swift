@@ -65,3 +65,20 @@ func convertToBinary(_ N: Int) -> [Character] {
 }
 
 print(solution(110101))
+
+//-------------------------------------------
+func bla() -> Int {
+    return 1 + 1
+}
+
+
+var array = ["test1b", "test1a"]
+var array2 = array.map { (word) -> [String] in
+    word.components(separatedBy: "%i")
+}
+
+let part = "test2b".components(separatedBy: CharacterSet.decimalDigits.inverted).joined()
+
+print(part)
+
+print(Date().description)
