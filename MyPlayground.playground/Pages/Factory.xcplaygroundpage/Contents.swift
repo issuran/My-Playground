@@ -61,7 +61,7 @@ test.sayMyName(brand: .sony)
 // SOLUCAO
 
 // Factory
-// essencialmente, essa funcao ira encapsular a logica do switch e criar o Mobile necessario
+// Essencialmente, essa função irá encapsular a lógica do switch e criar o Mobile necessário
 
 //class MobileFactory {
 //    func createMobile(_ brand: Brand) -> Mobile {
